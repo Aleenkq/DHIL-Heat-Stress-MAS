@@ -1,0 +1,11 @@
+streamlit>=1.45,<2
+folium>=0.19,<1
+langsmith>=0.3,<1
+numpy>=1.26,<2.3
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+networkx>=3.3,<4
+joblib>=1.4,<2
+requests>=2.32,<3
+Pillow>=10,<14
+matplotlib>=3.8,<4
