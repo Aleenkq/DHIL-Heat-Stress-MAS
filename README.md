@@ -203,17 +203,13 @@ A rule-based fallback mechanism is available when the ML component becomes unava
 
 The risk classifications are simulation-based preventive indicators and have not been clinically validated.
 
+
 ## Limitations
 
-- The system is a simulation-based prototype, not a medical diagnosis or emergency-response service.
-- The model is trained on synthetic data rather than clinical patient records.
-- No body-worn sensors are used to measure the pilgrim's physiological condition.
-- The effects of rest, hydration, and cooling follow team-defined modeling assumptions.
-- Station capacity is not automatically released when a pilgrim leaves.
-- The Resource Agent ranks stations using straight-line distance, while the Route Agent calculates walking routes.
-- Heat-aware routing provides limited alternatives within the small pilot walking network.
-- The pilot area focuses on the Haram precinct; other Hajj locations, including Mina and Arafat, are outside its current geographic scope.
-- Health Agent failure detection may be delayed by up to one simulation step in the tested scenario.
+- DHIL is a simulation-based prototype and is not intended for medical diagnosis or emergency response.
+- The Health Agent uses synthetic training data and team-defined risk assumptions rather than clinically validated data.
+- Resource availability, cooling effects, and shade conditions are partially simulated.
+- The current system covers a limited area around the Haram in Makkah.
 
 ## Project Structure
 
