@@ -43,12 +43,10 @@ Messages include a shared ontology, conversation IDs, and reply references to su
 ## Installation and Setup
 
 ### 1. Clone the Repository
-
 ```bash
-git clone https://github.com/halaalhamzah/DHIL-Heat-Stress-MAS.git
+git clone https://github.com/Aleenkq/DHIL-Heat-Stress-MAS.git
 cd DHIL-Heat-Stress-MAS
 ```
-
 ### 2. Install Dependencies
 
 ```bash
