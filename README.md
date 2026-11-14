@@ -60,8 +60,10 @@ Ensure the following project assets are available:
 - data/haram_features.csv
 - health_model.joblib (trained model)
 The Health Agent uses a trained Random Forest model for heat-stress risk classification. To regenerate the model, run:
+```bash
 
 python train_model.py
+```
 This command trains the model using synthetic simulation data and saves it as health_model.joblib in the project root directory.
 
 ### 4. Run the Application
