@@ -55,21 +55,14 @@ python -m pip install -r requirements.txt
 
 ### 3. Prepare the Required Files
 
-Ensure that the required map files and trained model are available at the paths expected by the application.
+Ensure the following project assets are available:
+- data/makkah_walk.graphml
+- data/haram_features.csv
+- health_model.joblib (trained model)
+The Health Agent uses a trained Random Forest model for heat-stress risk classification. To regenerate the model, run:
 
-The main project assets include:
-
-- `data/makkah_walk.graphml`
-- `data/haram_features.csv`
-- `models/health_model.joblib`, if the application is configured to load the model from this directory.
-
-If no trained model is available, the application supports training through the project's training script. Model training can also be performed manually:
-
-```bash
 python train_model.py
-```
-
-The model-loading and saving paths must be consistent with the current implementation.
+This command trains the model using synthetic simulation data and saves it as health_model.joblib in the project root directory.
 
 ### 4. Run the Application
 
