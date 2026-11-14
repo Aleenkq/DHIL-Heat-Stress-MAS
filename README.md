@@ -241,8 +241,7 @@ DHIL-Heat-Stress-MAS/
 ├── train_model.py
 ├── i18n.py
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ## Contributors
