@@ -10,6 +10,8 @@ DHIL is a Python-based Multi-Agent System designed to help Hajj and Umrah pilgri
 The system retrieves live weather data, estimates a pilgrim's heat-stress risk using machine learning, and provides preventive recommendations such as drinking water, resting, visiting a cooling area, or seeking medical assistance.
 
 DHIL integrates five cooperating agents to monitor environmental conditions, assess simulated health risks, coordinate resources, and recommend suitable walking routes.
+<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/160b8d4a-0929-4b83-82e2-fbff7d4afdde" />
+
 
 ## Agents
 
